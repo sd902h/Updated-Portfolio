@@ -66,3 +66,12 @@ footer.page-footer {
   font-family: "Lobster", cursive;
   font-size: 20px;
 }
+
+@media screen and (max-width: 998px) {
+  .parallax-container {
+    height: auto;
+    overflow: scroll !important;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+}
